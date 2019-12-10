@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 200px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    width: 40%;
+    padding: 50px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.main {
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+button {
+	background:linear-gradient(to bottom, #de2121 5%, #ba1841 100%);
+	background-color:#de2121;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin: 50px;
+}
+
+button:hover {    
+    box-shadow: 0px 10px 14px -7px #000;
+}
