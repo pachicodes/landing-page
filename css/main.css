@@ -11,9 +11,19 @@ body {
     width: 200px;
 }
 
-.flag {
+.portuguese-btn {
+    width: 40px;
+    height: 30px;
     position: absolute;
     right: 50px;
+    top: 50px;
+}
+
+.english-btn {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right: 100px;
     top: 50px;
 }
 
@@ -60,11 +70,18 @@ body {
 }
 
 .img {
-    flex: 60%;
+    flex: 50%;
     transform: translateY(-18%)
 }
 
+footer {
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
+    .logo {
+        width: 40%;
+    }
     .intro {
         margin-top: 10px;
         flex-direction: column;
