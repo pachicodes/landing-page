@@ -5,6 +5,11 @@ body {
 .logo {
     width: 200px;
 }
+.flag {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
 
 h1 {
     font-size: 25px;
